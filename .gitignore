@@ -1,0 +1,50 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node.js
+node_modules/
+dist/
+build/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Raw weather datasets
+data/raw/
+data/processed/
+
+# Machine learning artifacts
+*.pt
+*.pth
+*.pkl
+*.onnx
+
+# Temporary files
+tmp/
+.cache/
